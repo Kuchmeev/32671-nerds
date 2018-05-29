@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [frostmeister](https://up.htmlacademy.ru/htmlcss/21/user/32671).
-* Наставник: [Никата Рогатнев] (https://htmlacademy.ru/profile/nikita_rogatnev)
+* Наставник: [Никита Рогатнев] (https://htmlacademy.ru/profile/nikita_rogatnev)
 
 ---
 
