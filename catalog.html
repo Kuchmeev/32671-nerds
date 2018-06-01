@@ -26,22 +26,106 @@
   
   <main class="main-catalog">
   <div class="magazine">Магазин готовых шаблонов</div>
-  <section class="optional-container"></section>
+  
+  <section class="optional-container">
   <div class="price-runner">
-      <h2>Стоимость:</h2>  
+      <b>Стоимость:</b><br>  
       <input type="range">  
       <span>От</span> 
-      <--->Здесь будет форма</---> 
+      <!---Здесь будет форма/---> 
       <span>До</span> 
-      <--->Здесь будет форма</---> 
+      <!---Здесь будет форма/---> 
   </div>
   <div class="layout-type">
-      <h2>Сетка</h2>
+      <b>Сетка:</b><br>
+      <label>
+        <input type="radio" name="question-one" value="Адаптивная" checked>
+          Адаптивная
+      </label>
+      <br>
+      <label>
+      <input type="radio" name="question-one" value="Фиксированная">
+          Фиксированная
+      </label>
+      <br>
+      <label>
+      <input type="radio" name="question-one" value="Резиновая">
+          Резиновая
+      </label>                 
   </div>
-
+  <div class="properties">
+     <b>Особенности:</b><br>
+     <input type="checkbox" name="slider" id="slider-field" checked>
+       <label for="property-field">Слайдер</label><br>
+     <input type="checkbox" name="advantage" id="advantage-field">
+       <label for="property-field">Блок преимуществ</label><br>
+     <input type="checkbox" name="news" id="news-field" checked>
+       <label for="property-field">Новости</label><br>
+     <input type="checkbox" name="galery" id="galery-field">
+       <label for="property-field">Галерея</label><br>
+     <input type="checkbox" name="basket" id="basket-field">
+       <label for="property-field">Корзина</label>          
+  </div>
+  <a class="button-show" href="#">Показать</a>  
+  </section>
+  <section class="main-container">
+      <div class="sort">
+          <b>Сортировать:</b>
+          <span>По цене</span>
+          <span>По типу</span>
+          <span>По названию</span>
+      </div>
+      <!-->Сортировку не догадался как верстать</!-->
+      <article class="sedona">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <article class="pink">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <article class="barbershop">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <article class="mishka">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <article class="plus">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <article class="kvast">
+          <div class="visually-hidden">
+          <h2>Barbershop</h2>
+          <p>Сайт салона красоты.<br>Для мужчин, да.</p>
+          <a class="price" href="#">9 900 руб.</a>
+          </div>
+      </article>
+      <div class="page-nav">
+          <a class="page-number" href="#">1</a>
+          <a class="page-number" href="#">2</a>
+          <a class="page-number" href="#">3</a>
+          <a class="page-number" href="#">Следующая</a>
+      </div>    
+  </section>
   </main>
-
-
         <section class="map">
           <img src="" alt="Карта">
            <div class="contacts">
@@ -62,7 +146,7 @@
           </ul>
        </div>
        </nav>
-       <h3>Давайте дружить, это выгодно!</h3>
+       <h2>Давайте дружить, это выгодно!</h2>
        <span>Скидка 10% для друзей из социальных сетей.</span>
    </footer>  
   </body>
