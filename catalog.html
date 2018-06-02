@@ -1,153 +1,166 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-  <header class="main-header">
-  <a class="header-logo" href="#">
+</head>
+
+<body>
+    <header class="main-header">
+        <a class="header-logo" href="#">
      <img src="" alt="Логотип">
   </a>
-  <nav class="main-navigation">
-      <ul>
-          <li class="cart"><a>Студия</a></li>
-          <li class="cart"><a>Клиенты</a></li>
-          <li class="cart"><a>Магазин</a></li>
-          <li class="cart"><a>Контакты</a></li>
-      </ul> 
-      <ul>
-          <li><a href="#">Корзина</a></li>
-      </ul>   
-  </nav>                    
-  </header>
-  <main class="main-catalog">
-      <section class="magazine"><h1>Магазин готовых шаблонов</h1></section>
-  <section class="optional-container">
-  <div class="price-runner">
-      <b>Стоимость:</b> 
-      <input type="range">
-      <span>От</span> 
-      <!-- Здесь будет форма --> 
-      <span>До</span> 
-      <!-- Здесь будет форма --> 
-  </div>
-  <div class="layout-type">
-      <b>Сетка:</b>
-      <label>
+        <nav class="main-navigation">
+            <ul>
+                <li class="cart"><a>Студия</a></li>
+                <li class="cart"><a>Клиенты</a></li>
+                <li class="cart"><a>Магазин</a></li>
+                <li class="cart"><a>Контакты</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-catalog">
+        <section class="magazine">
+            <h1>Магазин готовых шаблонов</h1>
+        </section>
+
+
+
+
+        <aside class="optional-container">
+            <form action="">
+                <div class="price-runner">
+                    <b>Стоимость:</b>
+                    <input type="range">
+                    <label for="lower-price">От</label>
+                    <input type="number" step="100" value="0" id="lower-price">
+                    <label for="upper-price">До</label>
+                    <input type="number" step="100" value="15 000" id="upper-price">
+                </div>
+                <div class="layout-type">
+                    <b>Сетка:</b>
+                    <label>
         <input type="radio" name="question-one" value="Адаптивная" checked>
           Адаптивная
       </label>
-      
-      <label>
+                    <label>
       <input type="radio" name="question-one" value="Фиксированная">
           Фиксированная
       </label>
-      
-      <label>
+                    <label>
       <input type="radio" name="question-one" value="Резиновая">
           Резиновая
-      </label>                 
-  </div>
-  <div class="properties">
-     <b>Особенности:</b>
-     <input type="checkbox" name="slider" id="slider-field" checked>
-       <label for="property-field">Слайдер</label>
-     <input type="checkbox" name="advantage" id="advantage-field">
-       <label for="property-field">Блок преимуществ</label>
-     <input type="checkbox" name="news" id="news-field" checked>
-       <label for="property-field">Новости</label>
-     <input type="checkbox" name="galery" id="galery-field">
-       <label for="property-field">Галерея</label>
-     <input type="checkbox" name="basket" id="basket-field">
-       <label for="property-field">Корзина</label>          
-  </div>
-  <a class="button-show" href="#">Показать</a>  
-  </section>
-  <section class="main-container">
-      <div class="sort">
-          <b>Сортировать:</b>
-          <span>По цене</span>
-          <span>По типу</span>
-          <span>По названию</span>
-      </div>
-      <!-->Сортировку не догадался как верстать</!-->
-      
-      <article class="sedona">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <article class="pink">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <article class="barbershop">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <article class="mishka">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <article class="plus">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <article class="kvast">
-          <div class="visually-hidden">
-          <h2>Barbershop</h2>
-          <p>Сайт салона красоты.Для мужчин, да.</p>
-          <a class="price" href="#">9 900 руб.</a>
-          </div>
-      </article>
-      <div class="page-nav">
-          <a class="page-number" href="#">1</a>
-          <a class="page-number" href="#">2</a>
-          <a class="page-number" href="#">3</a>
-          <a class="page-number" href="#">Следующая</a>
-      </div>    
-  </section>
-  <section class="map">
-          <img src="" alt="Карта">
-           <div class="contacts">
-               <h3>Nёrds design studio</h3>
-               <p class="adress">191186, Санкт-Петербург,ул. Б. Конюшенная, д.19/8</p>
-               <a class="phone-number" href="#">тел. +7(812)275-75-75</a> 
-               <a class="button-message" href="#">Напишите нам</a>  
-           </div>
-               <div class="cloud">Nёrds</div>
-       </section>  
-  </main>
-   <footer class="main-footer">
-       <div class="footer-navigation">
-       <div class="social">
-          <ul>
-           <li><a class="social-button" href=""><img src="" alt="Вконтакте"></a></li>
-           <li><a class="social-button" href=""><img src="" alt="Facebook"></a></li>
-           <li><a class="social-button" href=""><img src="" alt="Instagramm"></a></li>
-          </ul>
-       </div>
-       </div>
-       <div class="discount">
-       <h2>Давайте дружить, это выгодно!</h2>
-       <span>Скидка 10% для друзей из социальных сетей.</span>
-       </div>
-   </footer>  
-  </body>
+      </label>
+                </div>
+                <div class="properties">
+                    <b>Особенности:</b>
+                    <input type="checkbox" name="slider" id="slider-field" checked>
+                    <label for="slider-field">Слайдер</label>
+                    <input type="checkbox" name="advantage" id="advantage-field">
+                    <label for="advantage-field">Блок преимуществ</label>
+                    <input type="checkbox" name="news" id="news-field" checked>
+                    <label for="news-field">Новости</label>
+                    <input type="checkbox" name="galery" id="galery-field">
+                    <label for="galery-field">Галерея</label>
+                    <input type="checkbox" name="basket" id="basket-field">
+                    <label for="basket-field">Корзина</label>
+                </div>
+                <input type="button" value="Показать">
+            </form>
+        </aside>
+
+
+
+        <section class="main-container">
+            <div class="sort">
+                <b>Сортировать:</b>
+                <ul>
+                    <li><a href="">По цене</a></li>
+                    <li><a href="">По типу</a></li>
+                    <li><a href="">По названию</a></li>
+                </ul>
+                <img src="" alt="В верх">
+                <img src="" alt="В низ">
+            </div>
+
+            <article class="catalog-item">
+                <img src="" alt="sedona">
+                <h1>Sedona</h1>
+                <p>Информационный сайт для туристов</p>
+                <a class="price" href="#">9 900 руб.</a>
+
+            </article>
+            <article class="catalog-item">
+                <img src="" alt="pink app">
+                <h1>Pink App</h1>
+                <p>Продуктовый лендинг приложений для iOS и Android</p>
+                <a class="price" href="#">9 900 руб.</a>
+            </article>
+            <article class="catalog-item">
+                <img src="" alt="barbershop">
+                <h1>Barbershop</h1>
+                <p>Сайт салона красоты.Для мужчин, да.</p>
+                <a class="price" href="#">9 900 руб.</a>
+
+            </article>
+            <article class="catalog-item">
+                <img src="" alt="mishka">
+                <h1>Mishka</h1>
+                <p>Интернет-магазин вязаных игрушек</p>
+                <a class="price" href="#">9 900 руб.</a>
+
+            </article>
+            <article class="catalog-item">
+                <img src="" alt="plus">
+                <h1>A plus</h1>
+                <p>Лендинг курсов повышения квалификации</p>
+                <a class="price" href="#">9 900 руб.</a>
+
+            </article>
+            <article class="catalog-item">
+                <img src="" alt="kvast">
+                <h1>Кваст</h1>
+                <p>Промо-сайт производителя крафтового кваса</p>
+                <a class="price" href="#">9 900 руб.</a>
+
+            </article>
+            <div class="page-nav">
+                <a class="page-number" href="#">1</a>
+                <a class="page-number" href="#">2</a>
+                <a class="page-number" href="#">3</a>
+                <a class="page-number" href="#">Следующая</a>
+            </div>
+        </section>
+        <section class="map">
+            <img src="" alt="Карта">
+            <div class="contacts">
+                <h3>Nёrds design studio</h3>
+                <p class="adress">191186, Санкт-Петербург,ул. Б. Конюшенная, д.19/8</p>
+                <a class="phone-number" href="#">тел. +7(812)275-75-75</a>
+                <a class="button-message" href="#">Напишите нам</a>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-navigation">
+            <div class="social">
+                <ul>
+                    <li><a class="social-button" href=""><img src="" alt="Вконтакте"></a></li>
+                    <li><a class="social-button" href=""><img src="" alt="Facebook"></a></li>
+                    <li><a class="social-button" href=""><img src="" alt="Instagramm"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="discount">
+            <h2>Давайте дружить, это выгодно!</h2>
+            <span>Скидка 10% для друзей из социальных сетей.</span>
+        </div>
+    </footer>
+</body>
+
 </html>
