@@ -1,5 +1,274 @@
-
-
-.visually-hidden {
-    display: none;
+body {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+
+ul {
+    list-style-type: none;
+
+}
+
+.header-logo {
+    padding: 50px 0 0 140px;
+}
+
+.header-logo:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: center; 
+}
+.header-navigation li {
+}
+.header-basket{
+    padding-right: 140px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+    color: #fb565a;
+}
+
+.main-navigation a:focus {
+    border-bottom: 2px solid #fb565a;
+}
+
+.main-navigation a:active {
+    opacity: 0.2;
+}
+
+.main-navigation li {
+    padding-right: 46px;
+}
+
+.header-basket li {}
+
+.button-order {
+    display: inline-block;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.benefits {
+    padding: 80px 140px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.benefit-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+
+}
+
+.benefits li:first-child a {
+    background: #fb565a;
+}
+
+.benefits li:nth-child(2) a {
+    background: #00ca74;
+}
+
+.benefits li:last-child a {
+    background: #efc84a;
+}
+
+.benefits li:first-child a:hover {
+    background: #e74246;
+}
+
+.benefits li:nth-child(2) a:hover {
+    background: #00bc6c;
+}
+
+.benefits li:last-child a:hover {
+    background: #e5a722;
+}
+
+.benefits li:first-child a:active {
+    background: #d7373b;
+    color: #e37376;
+}
+
+.benefits li:nth-child(2) a:active {
+    background: #00aa62;
+    color: #4dc491;
+}
+
+.benefits li:last-child a:active {
+    background: #e5a722;
+    color: #edc265;
+}
+
+.about-us {
+    display: flex;
+    border-bottom: 2px solid #eeeeee;
+    padding: 80px 140px;
+
+}
+.purpose {
+    max-width: 60%;
+}
+
+.purpose ul {
+    list-style-type: circle;
+}
+
+.purpose h2 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.stats span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:first-of-type td {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.orders {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.partners ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 140px;
+    border-bottom: 2px solid #eeeeee;
+    margin: 0;
+}
+
+.partners li {
+    opacity: 0.3;
+}
+
+.partners li:hover {
+    opacity: 1;
+}
+
+.partners li:active {
+    opacity: 0.2;
+}
+
+.map img {
+    padding-top: 80px;
+    width: ;
+    height: auto;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 310px;
+    position: absolute;
+    top: 1655px;
+    left: 140px;
+    background-color: white;
+}
+
+.adress {
+    padding: 0 45px;
+}
+
+.button-message {
+    margin-top: 15px;
+    padding: 19px 46px;
+    background-color: #fb565a;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    padding: 50px 0px 70px 140px;
+}
+.social {
+    padding-top: 20px;
+}
+.social ul {
+    display: flex;
+}
+
+.social a {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 10px;
+    background-color: #e1e1e1;
+}
+
+.social img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.social a:hover {
+    background-color: #e74246;
+}
+
+.social a:active {
+    background-color: #d7373b;
+}
+
+.discount {
+    font-size: 36px;
+    padding-left: 140px;
+}
+/* catalog */
+.magazine {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    background-color: #eeeeee;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.price-runner {
+    padding-top: 50px;
+}
+    
