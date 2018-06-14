@@ -2,7 +2,7 @@ body {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
 }
 
@@ -82,27 +82,27 @@ nav {
 
 }
 
-.benefits li:first-child a {
+.web a {
     background: #fb565a;
 }
 
-.benefits li:nth-child(2) a {
+.app a {
     background: #00ca74;
 }
 
-.benefits li:last-child a {
+.presentation a {
     background: #efc84a;
 }
 
-.benefits li:first-child a:hover {
+.web a:hover {
     background: #e74246;
 }
 
-.benefits li:nth-child(2) a:hover {
+.app a:hover {
     background: #00bc6c;
 }
 
-.benefits li:last-child a:hover {
+.presentation a:hover {
     background: #e5a722;
 }
 
