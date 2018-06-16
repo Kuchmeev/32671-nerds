@@ -46,8 +46,6 @@ nav {
     margin-top: 30px;
 }
 
-.header-navigation li {}
-
 .header-basket {
     width: 130px;
     margin: 0;
@@ -60,7 +58,7 @@ nav {
     margin-left: 20px;
 }
 
-.main-navigation a {
+a {
     text-decoration: none;
 }
 
@@ -96,9 +94,7 @@ nav {
     margin-top: 10px;
 }
 
-.benefits {
-    
-}
+.benefits {}
 
 .benefit-list {
     display: flex;
@@ -109,7 +105,7 @@ nav {
 }
 
 .benefit-item {
-    width: 300px;   
+    width: 300px;
 }
 
 .benefit-item h3 {
@@ -163,8 +159,8 @@ nav {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #eeeeee;
-    padding: 75px 22px 51px 10px; 
-    
+    padding: 75px 22px 51px 10px;
+
 }
 
 .purpose {
@@ -176,23 +172,28 @@ nav {
     font-size: 45px;
     line-height: 45px;
 }
+
 .purpose p {
     padding: 0;
     margin: 0;
     margin-top: 30px;
     margin-bottom: 40px;
 }
+
 .orders-development {
     margin: 0;
     margin-top: 25px;
 }
-.orders-development li{
+
+.orders-development li {
     margin-bottom: 25px;
 }
+
 .orders {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .stats {
     width: 360px;
 }
@@ -206,7 +207,7 @@ tr:first-of-type td {
     font-size: 45px;
     font-weight: bold;
     padding-top: 25px;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 }
 
 .partners ul {
@@ -234,12 +235,12 @@ tr:first-of-type td {
 .map {
     width: 100%;
     text-align: center;
-    
+
 }
 
 .map img {
     width: 1440px;
-    
+
 }
 
 /*
@@ -328,7 +329,7 @@ footer {
     font-size: 36px;
     line-height: 36px;
     font-weight: 900;
-    
+
 }
 
 .discount span {
@@ -338,15 +339,124 @@ footer {
 /* catalog */
 
 .magazine {
-    display: flex;
-    justify-content: center;
-    padding-top: 45px;
-    padding-bottom: 55px;
+    text-align: center;
     background-color: #eeeeee;
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 80px 220px 110px 220px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+
 }
 
-.price-runner {
-    padding-top: 50px;
+.magazine h1 {
+    margin: 0;
+    padding: 0;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.optional-container {
+    margin: 0;
+    padding: 0;
+    width: 260px;
+}
+
+.container {
+    width: 760px;
+
+}
+
+.sort {
+    display: flex;
+    width: 760px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    padding: 0 20px 0 150px;
+}
+
+.sort-buttons {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    padding-left: 265px;
+}
+
+.arrows-buttons {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+
+.catalog-menu {
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding: 0 20px 0 150px;
+
+}
+
+.catalog-menu li {
+    width: 360px;
+}
+
+.catalog-menu li:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.page-nav {
+    width: 460px;
+    padding: 0 20px 0 150px;
+}
+
+.hover-info p,
+.hover-info h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hover-info {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #eeeeee;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+    
+    /*display: none;*/
+}
+
+.hover-info h1 {
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    font-size: 18px;
+}
+.hover-info p {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 27px;
+}
+
+.price {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #fb565a;
+    padding: 15px 54px;
+    border-radius: 5px;
+    
+}
+
