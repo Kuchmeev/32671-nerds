@@ -4,15 +4,32 @@ body {
     line-height: 24px;
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 ul {
     list-style-type: none;
+}
 
+header {
+    background-color: #eeeeee;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 49px 120px 0 140px;
+}
+
+nav {
+    display: flex;
 }
 
 .header-logo {
-    padding: 50px 0 0 140px;
+    width: 162px;
+    margin-right: 199px;
 }
 
 .header-logo:hover {
@@ -20,23 +37,27 @@ ul {
     cursor: pointer;
 }
 
-nav {
-    background-color: #eeeeee;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .header-navigation {
     display: flex;
-    justify-content: center; 
+    justify-content: space-between;
+    width: 440px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
 }
-.header-navigation li {
+
+.header-navigation li {}
+
+.header-basket {
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    margin-left: 243px;
+    padding-top: 30px;
 }
-.header-basket{
-    padding-right: 140px;
+
+.header-basket span {
+    margin-left: 20px;
 }
 
 .main-navigation a {
@@ -55,31 +76,48 @@ nav {
     opacity: 0.2;
 }
 
-.main-navigation li {
-    padding-right: 46px;
+.slider {
+    display: flex;
+    width: 100%;
+    min-height: 425px;
+    background-color: #eeeeee;
 }
 
-.header-basket li {}
+.main-navigation li {}
 
 .button-order {
     display: inline-block;
-    padding: 20px 40px;
+    padding: 13px 40px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 200;
     color: white;
+    border-radius: 2px;
+    margin-top: 10px;
 }
 
 .benefits {
-    padding: 80px 140px;
-    border-bottom: 2px solid #eeeeee;
+    
 }
 
 .benefit-list {
     display: flex;
     justify-content: space-between;
-    padding-left: 0px;
+    padding: 0;
+    margin: 0;
+    padding: 82px 90px 82px 10px;
+}
 
+.benefit-item {
+    width: 300px;   
+}
+
+.benefit-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 18px 0;
 }
 
 .web a {
@@ -106,44 +144,57 @@ nav {
     background: #e5a722;
 }
 
-.benefits li:first-child a:active {
+.web a:active {
     background: #d7373b;
     color: #e37376;
 }
 
-.benefits li:nth-child(2) a:active {
+.app a:active {
     background: #00aa62;
     color: #4dc491;
 }
 
-.benefits li:last-child a:active {
+.presentation a:active {
     background: #e5a722;
     color: #edc265;
 }
 
 .about-us {
     display: flex;
-    border-bottom: 2px solid #eeeeee;
-    padding: 80px 140px;
-
+    justify-content: space-between;
+    border-top: 2px solid #eeeeee;
+    padding: 75px 22px 51px 10px; 
+    
 }
+
 .purpose {
-    max-width: 60%;
-}
-
-.purpose ul {
-    list-style-type: circle;
+    width: 660px;
 }
 
 .purpose h2 {
+    margin: 0;
     font-size: 45px;
     line-height: 45px;
 }
-
+.purpose p {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.orders-development {
+    margin: 0;
+    margin-top: 25px;
+}
+.orders-development li{
+    margin-bottom: 25px;
+}
+.orders {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .stats {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    width: 360px;
 }
 
 .stats span {
@@ -154,21 +205,18 @@ nav {
 tr:first-of-type td {
     font-size: 45px;
     font-weight: bold;
-    padding-top: 35px;
-    padding-bottom: 30px;
-}
-
-.orders {
-    text-transform: uppercase;
-    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 30px; 
 }
 
 .partners ul {
     display: flex;
     justify-content: space-between;
-    padding: 40px 140px;
-    border-bottom: 2px solid #eeeeee;
+    align-items: center;
+    border-top: 2px solid #eeeeee;
     margin: 0;
+    margin-bottom: 75px;
+    padding: 44px 59px 45px 47px;
 }
 
 .partners li {
@@ -183,12 +231,18 @@ tr:first-of-type td {
     opacity: 0.2;
 }
 
-.map img {
-    padding-top: 80px;
-    width: ;
-    height: auto;
+.map {
+    width: 100%;
+    text-align: center;
+    
 }
 
+.map img {
+    width: 1440px;
+    
+}
+
+/*
 .contacts {
     display: flex;
     flex-direction: column;
@@ -201,6 +255,7 @@ tr:first-of-type td {
     left: 140px;
     background-color: white;
 }
+*/
 
 .adress {
     padding: 0 45px;
@@ -219,13 +274,22 @@ tr:first-of-type td {
 
 footer {
     display: flex;
-    padding: 50px 0px 70px 140px;
+    align-items: flex-end;
+    padding-top: 50px;
+    padding-bottom: 68px;
 }
+
 .social {
-    padding-top: 20px;
+    width: 260px;
+
 }
+
 .social ul {
     display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
 }
 
 .social a {
@@ -254,10 +318,25 @@ footer {
 }
 
 .discount {
-    font-size: 36px;
-    padding-left: 140px;
+    width: 562px;
+    margin: 0;
+    padding: 0;
+    margin-left: 139px;
 }
+
+.discount h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    
+}
+
+.discount span {
+    line-height: 22px;
+}
+
 /* catalog */
+
 .magazine {
     display: flex;
     justify-content: center;
@@ -271,4 +350,3 @@ footer {
 .price-runner {
     padding-top: 50px;
 }
-    

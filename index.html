@@ -6,87 +6,97 @@
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header class="main-header">
-        <nav class="main-navigation">
-            <a class="header-logo">
+        <div class="wrapper">
+            <nav class="main-navigation">
+                <a class="header-logo">
      <img src="./img/nerds-logo.svg" width="160" height="65" alt="Логотип">
             </a>
-            <ul class="header-navigation">
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Клиенты</a></li>
-                <li><a href="catalog.html">Магазин</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-            <ul class="header-basket">
-                <li>
-                    <a href="#"><img src="./img/cart-icon.svg" alt="Корзина" width="15" height="15">Корзина</a></li>
-            </ul>
-        </nav>
+                <ul class="header-navigation">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="header-basket">
+                    <li>
+                        <a href="#"><img src="./img/cart-icon.svg" alt="Корзина" width="15" height="15">
+                            <span>Корзина</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main-page">
         <section class="slider"></section>
-        <section class="benefits">
-            <ul class="benefit-list">
-                <li class="benefit-item web">
-                    <img src="./img/illustration-1.png" width="340" height="146" alt="">
-                    <h3>Веб-сайты</h3>
-                    <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                    <a class="button-order" href="#">Заказать</a>
-                </li>
-                <li class="benefit-item app">
-                    <img src="./img/illustration-2.png" width="340" height="146" alt="">
-                    <h3>Приложения</h3>
-                    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-                    <a class="button-order" href="#">Заказать</a>
-                </li>
-                <li class="benefit-item presentation">
-                    <img src="./img/illustration-3.png" width="340" height="146" alt="">
-                    <h3>Презентации</h3>
-                    <p>Вы даже не подозреваете насколько вы изумительны!</p>
-                    <a class="button-order" href="#">Заказать</a>
-                </li>
-            </ul>
-        </section>
-        <section class="about-us">
-            <div class="purpose">
-                <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-                <span class="orders">Выполняем заказы на разработку:</span>
-                <ul>
-                    <li>Веб-сайтов любой сложности</li>
-                    <li>Мобильных приложений для iOS и Android</li>
-                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+        <div class="wrapper">
+            <section class="benefits">
+                <ul class="benefit-list">
+                    <li class="benefit-item web">
+                        <img src="./img/illustration-1.png" width="300" height="146" alt="">
+                        <h3>Веб-сайты</h3>
+                        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                        <a class="button-order" href="#">Заказать</a>
+                    </li>
+                    <li class="benefit-item app">
+                        <img src="./img/illustration-2.png" width="300" height="146" alt="">
+                        <h3>Приложения</h3>
+                        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+                        <a class="button-order" href="#">Заказать</a>
+                    </li>
+                    <li class="benefit-item presentation">
+                        <img src="./img/illustration-3.png" width="300" height="146" alt="">
+                        <h3>Презентации</h3>
+                        <p>Вы даже не подозреваете насколько вы изумительны!</p>
+                        <a class="button-order" href="#">Заказать</a>
+                    </li>
                 </ul>
+            </section>
             </div>
-            <div class="stats">
-                <img src="./img/nerds-illustration.png" width="360" height="208" alt="">
-                <span>С 2004 года любим точность во всем:</span>
-                <table>
-                    <tr>
-                        <td>146<sup>%</sup></td>
-                        <td>100<sup>%</sup></td>
-                        <td>50<sup>%</sup></td>
-                    </tr>
-                    <tr>
-                        <td>Уровень самоотдачи</td>
-                        <td>Соблюдение сроков</td>
-                        <td>Минимальная предоплата</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-        <section class="partners">
-            <ul>
-                <li><a href="#"><img src="./img/logo-1.png" width="199" height="68" alt="Партнер HTML academy"></a></li>
-                <li><a href="#"><img src="./img/logo-2.png" width="209" height="90" alt="Партнер Borodinski"></a></li>
-                <li><a href="#"><img src="./img/logo-3.png" width="185" height="52" alt="Партнер Pink"></a></li>
-                <li><a href="#"><img src="./img/logo-4.png" width="173" height="84" alt="Партнер Mishka"></a></li>
-            </ul>
-        </section>
+            <div class="wrapper">
+            <section class="about-us">
+                <div class="purpose">
+                    <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+                    <span class="orders">Выполняем заказы на разработку:</span>
+                    <ul class="orders-development">
+                        <li>Веб-сайтов любой сложности</li>
+                        <li>Мобильных приложений для iOS и Android</li>
+                        <li>Слайдшоу и видео для корпоративных презентаций</li>
+                    </ul>
+                </div>
+                <div class="stats">
+                    <img src="./img/nerds-illustration.png" width="360" height="208" alt="">
+                    <span>С 2004 года любим точность во всем:</span>
+                    <table>
+                        <tr>
+                            <td>146<sup>%</sup></td>
+                            <td>100<sup>%</sup></td>
+                            <td>50<sup>%</sup></td>
+                        </tr>
+                        <tr>
+                            <td>Уровень самоотдачи</td>
+                            <td>Соблюдение сроков</td>
+                            <td>Минимальная предоплата</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+           <div class="wrapper">
+            <section class="partners">
+                <ul>
+                    <li class="partner"><a href="#"><img src="./img/logo-1.png" width="199" height="68" alt="Партнер HTML academy"></a></li>
+                    <li class="partner"><a href="#"><img src="./img/logo-2.png" width="209" height="90" alt="Партнер Borodinski"></a></li>
+                    <li class="partner"><a href="#"><img src="./img/logo-3.png" width="185" height="52" alt="Партнер Pink"></a></li>
+                    <li class="partner"><a href="#"><img src="./img/logo-4.png" width="173" height="84" alt="Партнер Mishka"></a></li>
+                </ul>
+            </section>
+        </div>
         <section class="map">
             <img src="./img/map-cloud.jpg" width="1440" height="785" alt="Карта">
             <div class="contacts">
@@ -97,19 +107,21 @@
             </div>
         </section>
     </main>
-    <footer class="main-footer">
-        <div class="social">
-            <ul>
-                <li><a class="social-button" href="#"><img src="./img/vk-icon.svg" width="25" height="25" alt="Vkontakte"></a></li>
-                <li><a class="social-button" href="#"><img src="./img/fb-icon.svg" width="25" height="25" alt="Facebook"></a></li>
-                <li><a class="social-button" href="#"><img src="./img/insta-icon.svg" width="25" height="25" alt="Instagramm"></a></li>
-            </ul>
-        </div>
-        <div class="discount">
-            <h2>Давайте дружить, это выгодно!</h2>
-            <span>Скидка 10% для друзей из социальных сетей.</span>
-        </div>
-    </footer>
+    <div class="wrapper">
+        <footer class="main-footer">
+            <div class="social">
+                <ul>
+                    <li><a class="social-button" href="#"><img src="./img/vk-icon.svg" width="25" height="25" alt="Vkontakte"></a></li>
+                    <li><a class="social-button" href="#"><img src="./img/fb-icon.svg" width="25" height="25" alt="Facebook"></a></li>
+                    <li><a class="social-button" href="#"><img src="./img/insta-icon.svg" width="25" height="25" alt="Instagramm"></a></li>
+                </ul>
+            </div>
+            <div class="discount">
+                <h2>Давайте дружить, это выгодно!</h2>
+                <span>Скидка 10% для друзей из социальных сетей.</span>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
