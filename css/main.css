@@ -497,6 +497,10 @@ footer {
 
 }
 
+
+
+
+/*
 .social a {
     position: relative;
     display: inline-block;
@@ -506,7 +510,9 @@ footer {
     margin-right: 10px;
     background-color: #e1e1e1;
 }
+*/
 
+/*
 .social img {
     position: absolute;
     top: 50%;
@@ -521,6 +527,7 @@ footer {
 .social a:active {
     background-color: #d7373b;
 }
+*/
 
 .discount {
     width: 562px;
