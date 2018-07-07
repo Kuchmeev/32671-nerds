@@ -1083,15 +1083,6 @@ ul {
     margin-bottom: 33px;
 }
 
-.second-field {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
 
 .second-field li {
     margin-bottom: 33px;
