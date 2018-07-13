@@ -1,5 +1,5 @@
 var link = document.querySelector(".button-message");
-var popup = document.querySelector(".modal-window");
+var popup = document.querySelector(".modal-position");
 var close = document.querySelector(".modal-close");
 var form = popup.querySelector("form");
 var login = popup.querySelector(".form-name-field");

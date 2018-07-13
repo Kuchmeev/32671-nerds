@@ -7,15 +7,16 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
+
 <body>
     <header class="main-header">
         <div class="wrapper">
             <nav class="main-navigation">
-                <a class="header-logo catalog-logo" href="index.html">
-     <img src="./img/nerds-logo.svg" width="160" height="65" alt="Логотип">
-            </a>
+                <a class="catalog-logo" href="index.html">
+                    <img src="./img/nerds-logo.svg" width="160" height="65" alt="Логотип">
+                </a>
                 <ul class="header-navigation">
-                    <li><a href="index.html">Студия</a></li>
+                    <li><a href="./index.html">Студия</a></li>
                     <li><a href="#">Клиенты</a></li>
                     <li class="header-navigation-current"><a href="#">Магазин</a></li>
                     <li><a href="#">Контакты</a></li>
@@ -77,15 +78,15 @@
                             <h3>Особенности:</h3>
                             <ul>
                                 <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider-field" checked>
-                                    <label for="slider-field">Слайдер</label></li>
+                                <label for="slider-field">Слайдер</label></li>
                                 <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage" id="advantage-field">
-                                    <label class="visually-hidden filter-input filter-input-checkbox" for="advantage-field">Блок преимуществ</label></li>
+                                <label for="advantage-field">Блок преимуществ</label></li>
                                 <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="news-field" checked>
-                                    <label for="news-field">Новости</label></li>
+                                <label for="news-field">Новости</label></li>
                                 <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="galery-field">
-                                    <label for="galery-field">Галерея</label></li>
+                                <label for="galery-field">Галерея</label></li>
                                 <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="basket-field" disabled>
-                                    <label for="basket-field">Корзина</label></li>
+                                <label for="basket-field">Корзина</label></li>
                                 <li><button type="submit" class="filter-button">Показать</button></li>
                             </ul>
                         </div>
@@ -110,7 +111,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-sedona.jpg" width="360" height="576" alt="sedona">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>Sedona</h1>
+                                    <h1><a href="#">Sedona</a></h1>
                                     <p>Информационный сайт для туристов</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -121,7 +122,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-pink.jpg" width="360" height="576" alt="pink app">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>Pink App</h1>
+                                    <h1><a href="#">Pink App</a></h1>
                                     <p>Продуктовый лендинг приложений для iOS и Android</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -132,7 +133,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-barbershop.jpg" width="360" height="576" alt="barbershop">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>Barbershop</h1>
+                                    <h1><a href="#">Barbershop</a></h1>
                                     <p>Сайт салона красоты. Для мужчин, да.</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -143,7 +144,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-mishka.jpg" width="360" height="576" alt="mishka">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>Mishka</h1>
+                                    <h1><a href="#">Mishka</a></h1>
                                     <p>Интернет-магазин вязаных игрушек</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -154,7 +155,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-aplus.jpg" width="360" height="576" alt="plus">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>A plus</h1>
+                                    <h1><a href="#">A plus</a></h1>
                                     <p>Лендинг курсов повышения квалификации</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -165,7 +166,7 @@
                                 <div class="catalog-border"><span class="visually-hidden">Карточка товара</span></div>
                                 <img src="./img/img-kvast.jpg" width="360" height="576" alt="kvast">
                                 <div class="hover-info">
-                                    <h1><a href="#"></a>Кваст</h1>
+                                    <h1><a href="#">Кваст</a></h1>
                                     <p>Промо-сайт производителя крафтового кваса</p>
                                     <a class="price" href="#">9 900 руб.</a>
                                 </div>
@@ -208,9 +209,7 @@
                     <ul class="second-field">
                         <li class="comment-field">
                             <label for="comment">Текст письма:</label>
-                            <p>
-                                <textarea name="comment" id="comment" placeholder="В свободной форме" rows="5"></textarea>
-                            </p>
+                            <textarea name="comment" id="comment" placeholder="В свободной форме" rows="5"></textarea>
                         </li>
                         <li>
                             <button type="submit" class="button-submit">Отправить</button>
